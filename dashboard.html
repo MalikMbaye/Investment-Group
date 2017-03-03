@@ -49,61 +49,79 @@
                     Sectors
                 </a>
             </div>
-
+            
             <ul class="nav">
-                <li class="active">
-                    <a href="dashboard.html">
-                        <i class="pe-7s-users"></i>
-                        <p>Consumers</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="user.html">
-                        <i class="pe-7s-plug"></i>
-                        <p>Energy</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="table.html">
-                        <i class="pe-7s-piggy"></i>
-                        <p>Financials</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="typography.html">
-                        <i class="pe-7s-like"></i>
-                        <p>Healthcare</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="icons.html">
-                        <i class="pe-7s-science"></i>
-                        <p>Industrials</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="maps.html">
-                        <i class="pe-7s-call"></i>
-                        <p>Media/Telecom</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="notifications.html">
-                        <i class="pe-7s-gleam"></i>
-                        <p>Technology</p>
-                    </a>
-                </li>
-                 <li>
-                    <a href="notifications.html">
-                        <i class="pe-7s-tools"></i>
-                        <p>Utilities</p>
-                    </a>
-                </li> 
-            </ul>
+                <!-- Dropdown Template -->
+<li>
+    <a href="about.html">
+        <i class="pe-7s-id"></i>
+        <p>About</p>
+    </a>
+</li> 
+<li>
+    <a data-toggle="collapse" href="#pagesExamples">
+        <i class=pe-7s-plus></i>
+        <p><strong>Select Sector</strong>
+            <b class="caret"></b>
+        </p>
+
+    <div class="collapse" id="pagesExamples">
+        <ul class="nav">
+                 <li class="active">
+    <a href="#Consumers">
+        <i class="pe-7s-users"></i>
+        <p>Consumers</p>
+    </a>
+</li>
+<li>
+    <a href="user.html">
+        <i class="pe-7s-plug"></i>
+        <p>Energy</p>
+    </a>
+</li>
+<li>
+    <a href="table.html">
+        <i class="pe-7s-piggy"></i>
+        <p>Financials</p>
+    </a>
+</li>
+<li>
+    <a href="typography.html">
+        <i class="pe-7s-like"></i>
+        <p>Healthcare</p>
+    </a>
+</li>
+<li>
+    <a href="icons.html">
+        <i class="pe-7s-science"></i>
+        <p>Industrials</p>
+    </a>
+</li>
+<li>
+    <a href="maps.html">
+        <i class="pe-7s-call"></i>
+        <p>Media/Telecom</p>
+    </a>
+</li>
+<li>
+    <a href="notifications.html">
+        <i class="pe-7s-gleam"></i>
+        <p>Technology</p>
+    </a>
+</li>
+ <li>
+    <a href="notifications.html">
+        <i class="pe-7s-tools"></i>
+        <p>Utilities</p>
+    </a>
+</li> 
+</ul>           
+</li>
+<!-- Dropwdown Tempalte End -->
     	</div>
     </div>
-
-    <div class="main-panel">
+    <!--All Industries Index-->
+        <div class="main-panel">
         <nav class="navbar navbar-default navbar-fixed">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -255,7 +273,7 @@
                     <div class="col-md-6">
                         <div class="card ">
                             <div class="header">
-                                <h4 class="title">Tasks</h4>
+                                <h4 class="title"><a name="Consumers"></a>Tasks</h4>
                                 <p class="category">Backend development</p>
                             </div>
                             <div class="content">
@@ -436,22 +454,5 @@
 
 	<!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
 	<script src="assets/js/demo.js"></script>
-
-	<script type="text/javascript">
-    	$(document).ready(function(){
-
-        	demo.initChartist();
-
-        	$.notify({
-            	icon: 'pe-7s-gift',
-            	message: "Welcome to <b>Light Bootstrap Dashboard</b> - a beautiful freebie for every web developer."
-
-            },{
-                type: 'info',
-                timer: 4000
-            });
-
-    	});
-	</script>
 
 </html>
